@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Papel Tapiz Decorativo — Cortinas & Papeles Bogotá</title>
+<meta name="description" content="Papel tapiz decorativo para sala y baño, resistente a la humedad. Colecciones Botánica y Aurora. Catálogo completo, instalación incluida en Bogotá."/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --blue:#1a6fc4;--blue-d:#1560b0;--blue-xl:#e8f2fc;--blue-l:#c8def5;
+  --ink:#1e293b;--ink2:#334155;--ink3:#475569;--ink4:#64748b;--ink5:#94a3b8;
+  --s:#fff;--s2:#f8fafc;--s3:#f1f5f9;--border:#e2e8f0;--border2:#cbd5e1;
+  --f:'Poppins',sans-serif;--r:10px;--rl:16px;--rxl:22px;
+  --sh:0 1px 3px rgba(0,0,0,.05);--shm:0 8px 24px rgba(0,0,0,.09);--shl:0 20px 48px rgba(0,0,0,.12)
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--f);color:var(--ink);background:var(--s);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;background:rgba(255,255,255,.96);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.nav-logo{display:flex;align-items:center;text-decoration:none}
+.nav-logo img{height:42px;width:auto;object-fit:contain}
+.nav-back{font-size:.82rem;font-weight:500;color:var(--ink3);text-decoration:none;display:flex;align-items:center;gap:5px;border:1px solid var(--border2);border-radius:999px;padding:.38rem .9rem;transition:all .18s}
+.nav-back:hover{color:var(--blue);border-color:var(--blue)}
+.nav-back svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.nav-cta{font-size:.82rem;font-weight:600;color:#fff;background:var(--blue);border:none;border-radius:999px;padding:.42rem 1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:5px;cursor:pointer;font-family:var(--f);transition:all .18s}
+.nav-cta:hover{background:var(--blue-d)}
+.nav-cta svg{width:13px;height:13px;stroke:#fff;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:#060d1a}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(105deg,rgba(5,10,25,.88) 0%,rgba(5,10,25,.68) 45%,rgba(5,10,25,.28) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;padding:120px 6vw 90px;max-width:660px}
+.hero-eyebrow{font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#90c0eb;margin-bottom:.75rem;display:flex;align-items:center;gap:7px}
+.hero-eyebrow-line{width:20px;height:1.5px;background:var(--blue)}
+.hero-h1{font-size:clamp(2.4rem,4vw,3.4rem);font-weight:700;line-height:1.08;letter-spacing:-.02em;color:#fff;margin-bottom:1.1rem;text-shadow:0 2px 20px rgba(0,0,0,.2)}
+.hero-h1 span{background:linear-gradient(135deg,#93c5fd,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-p{font-size:1rem;color:rgba(255,255,255,.76);line-height:1.75;margin-bottom:2rem;max-width:520px}
+.hero-actions{display:flex;gap:.85rem;flex-wrap:wrap}
+.btn-primary{background:var(--blue);color:#fff;border:none;border-radius:999px;padding:.88rem 1.75rem;font-size:.9rem;font-weight:600;font-family:var(--f);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:all .2s;box-shadow:0 4px 20px rgba(26,111,196,.4)}
+.btn-primary:hover{background:var(--blue-d);transform:translateY(-2px)}
+.btn-primary svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.btn-ghost{background:rgba(255,255,255,.1);color:#fff;border:1.5px solid rgba(255,255,255,.28);border-radius:999px;padding:.88rem 1.75rem;font-size:.9rem;font-weight:500;font-family:var(--f);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:all .2s;backdrop-filter:blur(8px)}
+.btn-ghost:hover{background:rgba(255,255,255,.18)}
+
+/* SECTION */
+.sec{padding:5rem 5vw}
+.sec-alt{background:var(--s2)}
+.ew{display:inline-flex;align-items:center;gap:7px;margin-bottom:.65rem}
+.ewl{width:18px;height:1.5px;background:var(--blue)}
+.ewt{font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.h2{font-size:clamp(1.8rem,2.8vw,2.4rem);font-weight:700;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin-bottom:.75rem}
+.h2 span{color:var(--blue)}
+.lead{font-size:.95rem;color:var(--ink3);line-height:1.75;max-width:640px}
+
+/* SPECS */
+.specs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2.5rem}
+.spec{background:var(--s);border:1px solid var(--border);border-radius:var(--r);padding:1.1rem;display:flex;gap:.75rem;align-items:flex-start}
+.spec-ico{width:36px;height:36px;border-radius:9px;background:var(--blue-xl);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.spec-ico svg{width:17px;height:17px;stroke:var(--blue-d);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.spec-t{font-weight:600;font-size:.85rem;color:var(--ink);margin-bottom:.18rem}
+.spec-d{font-size:.78rem;color:var(--ink4);line-height:1.55}
+
+/* GALERÍA INSTALACIONES */
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.5rem}
+.gal-item{border-radius:var(--rl);overflow:hidden;aspect-ratio:4/3;cursor:pointer;position:relative}
+.gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.gal-item:hover img{transform:scale(1.06)}
+
+/* VIDEO */
+.video-section{margin-top:1rem}
+.vid-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;max-width:700px}
+.vid-card{border-radius:var(--rl);overflow:hidden;position:relative;cursor:pointer;background:var(--ink)}
+.vid-thumb{aspect-ratio:9/16;overflow:hidden;position:relative}
+.vid-thumb img{width:100%;height:100%;object-fit:cover;opacity:.82;transition:opacity .2s}
+.vid-card:hover .vid-thumb img{opacity:1}
+.vid-play{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem}
+.vid-play-btn{width:52px;height:52px;background:rgba(255,255,255,.92);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.25)}
+.vid-play-btn svg{width:20px;height:20px;fill:var(--blue);margin-left:3px}
+.vid-play-lbl{font-size:.75rem;font-weight:600;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+
+/* CATALOGO / TABS */
+.cat-tabs{display:flex;gap:.6rem;margin-top:2.5rem;margin-bottom:2rem;flex-wrap:wrap}
+.cat-tab{border:1.5px solid var(--border2);background:#fff;color:var(--ink3);font-family:var(--f);font-size:.85rem;font-weight:600;padding:.65rem 1.3rem;border-radius:999px;cursor:pointer;transition:all .18s}
+.cat-tab.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.cat-panel{display:none}
+.cat-panel.active{display:block}
+.cat-intro{display:flex;gap:1.5rem;align-items:center;background:var(--s2);border-radius:var(--rxl);padding:1.5rem;margin-bottom:2rem;flex-wrap:wrap}
+.cat-intro img{width:110px;height:110px;object-fit:cover;border-radius:var(--r);flex-shrink:0}
+.cat-intro-txt{flex:1;min-width:220px}
+.cat-intro-txt h3{font-size:1.15rem;font-weight:700;margin-bottom:.35rem;color:var(--ink)}
+.cat-intro-txt p{font-size:.83rem;color:var(--ink4);line-height:1.6;margin-bottom:.75rem}
+.btn-dl{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:600;color:var(--blue);border:1.5px solid var(--blue-l);background:var(--blue-xl);border-radius:999px;padding:.5rem 1.1rem;text-decoration:none;transition:all .18s}
+.btn-dl:hover{background:var(--blue);color:#fff}
+.btn-dl svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+.ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.9rem}
+.ref-card{cursor:pointer;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:#fff;transition:box-shadow .18s,transform .18s}
+.ref-card:hover{box-shadow:var(--shm);transform:translateY(-3px)}
+.ref-img{aspect-ratio:4/3;overflow:hidden}
+.ref-img img{width:100%;height:100%;object-fit:cover}
+.ref-code{font-size:.72rem;font-weight:700;letter-spacing:.03em;color:var(--ink3);text-align:center;padding:.4rem}
+
+/* CTA BAND */
+.cta-band{background:var(--blue);padding:4rem 5vw;text-align:center;position:relative;overflow:hidden}
+.cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(255,255,255,.08),transparent 70%);pointer-events:none}
+.cta-band h3{font-size:1.85rem;font-weight:700;color:#fff;margin-bottom:.65rem;letter-spacing:-.02em}
+.cta-band p{font-size:.95rem;color:rgba(255,255,255,.75);margin-bottom:1.75rem}
+.btn-w{background:#fff;color:var(--blue-d);border:none;border-radius:999px;padding:.9rem 1.85rem;font-size:.92rem;font-weight:700;font-family:var(--f);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:all .2s}
+.btn-w:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.btn-w svg{width:16px;height:16px;stroke:var(--blue-d);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* VIDEO MODAL */
+.vmodal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:500;display:flex;align-items:center;justify-content:center;padding:1rem;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.vmodal-overlay.open{opacity:1;visibility:visible}
+.vmodal{position:relative;width:100%;max-width:420px;border-radius:16px;overflow:hidden;background:#000}
+.vmodal video{width:100%;display:block;max-height:85vh;object-fit:contain}
+.vmodal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;background:rgba(255,255,255,.12);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);z-index:1;transition:background .18s}
+.vmodal-close:hover{background:rgba(255,255,255,.25)}
+.vmodal-close svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* IMAGE MODAL */
+.imodal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:500;display:flex;align-items:center;justify-content:center;padding:1.5rem;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.imodal-overlay.open{opacity:1;visibility:visible}
+.imodal{position:relative;max-width:720px;width:100%}
+.imodal img{width:100%;border-radius:14px;display:block}
+.imodal-label{color:#fff;text-align:center;margin-top:.75rem;font-weight:600;letter-spacing:.05em}
+.imodal-close{position:absolute;top:-44px;right:0;width:36px;height:36px;background:rgba(255,255,255,.12);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);transition:background .18s}
+.imodal-close:hover{background:rgba(255,255,255,.25)}
+.imodal-close svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .65s cubic-bezier(.16,1,.3,1),transform .65s cubic-bezier(.16,1,.3,1)}
+.rv.in{opacity:1;transform:translateY(0)}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+
+/* RESPONSIVE */
+@media(max-width:900px){.specs-grid{grid-template-columns:1fr 1fr}.gal-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){
+  .hero-content{padding:95px 5vw 60px;max-width:100%}
+  .hero-h1{font-size:clamp(2rem,7vw,2.5rem)}
+  .h2{font-size:1.65rem}
+  .sec{padding:3.5rem 4vw}
+  .hero-actions{flex-direction:column}
+  .btn-primary,.btn-ghost{justify-content:center}
+  .specs-grid{grid-template-columns:1fr}
+  .gal-grid{grid-template-columns:1fr 1fr}
+  .cat-intro{flex-direction:column;text-align:center}
+  .cat-intro img{width:100%;height:160px}
+}
+</style>
+</head>
+<body>
+
+<!-- VIDEO MODAL -->
+<div class="vmodal-overlay" id="vmodal">
+  <div class="vmodal">
+    <button class="vmodal-close" id="vmodalClose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <video id="vmodalVideo" controls playsinline></video>
+  </div>
+</div>
+
+<!-- IMAGE MODAL -->
+<div class="imodal-overlay" id="imodal">
+  <div class="imodal">
+    <button class="imodal-close" id="imodalClose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <img id="imodalImg" src="" alt=""/>
+    <div class="imodal-label" id="imodalLabel"></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav-logo" href="index.html"><img src="assets/index-cortinas-y-papeles-1.png" alt="Cortinas y Papeles"/></a>
+  <a href="index.html" class="nav-back"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>Volver al inicio</a>
+  <a href="https://wa.me/573107790189?text=Quiero%20información%20sobre%20papel%20tapiz" target="_blank" class="nav-cta">
+    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Cotizar
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="assets/papel-tapiz-instalado-sala-marmoleada-lujo-1.jpg" alt="Papel tapiz decorativo instalado en sala" class="hero-bg" loading="eager" fetchpriority="high"/>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow"><span class="hero-eyebrow-line"></span>Decoración de interiores</div>
+    <h1 class="hero-h1">Papel Tapiz <span>Decorativo</span></h1>
+    <p class="hero-p">El papel tapiz decorativo para pared de sala y baño está preparado para adaptarse a distintos niveles de humedad y uso. Existen opciones con superficies resistentes, fáciles de limpiar y con acabados que transforman cualquier ambiente.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/573107790189?text=Quiero%20cotizar%20papel%20tapiz" target="_blank" class="btn-primary">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Agendar visita gratis
+      </a>
+      <a href="#catalogo" class="btn-ghost">Ver catálogo ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ ESTE PAPEL TAPIZ -->
+<section class="sec" id="beneficios">
+  <div class="ew rv"><span class="ewl"></span><span class="ewt">Ideal para sala y baño</span></div>
+  <h2 class="h2 rv d1">Diseño que resiste el <span>uso diario</span></h2>
+  <p class="lead rv d2">Nuestras referencias están preparadas para distintos niveles de humedad y tránsito, por lo que puedes usarlas tanto en la sala como en el baño sin perder durabilidad ni estética.</p>
+
+  <div class="specs-grid">
+    <div class="spec rv">
+      <div class="spec-ico"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg></div>
+      <div><div class="spec-t">Resistente a la humedad</div><div class="spec-d">Superficies aptas para baños y zonas húmedas, sin deteriorarse con el tiempo.</div></div>
+    </div>
+    <div class="spec rv d1">
+      <div class="spec-ico"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></div>
+      <div><div class="spec-t">Textura plana</div><div class="spec-d">Acabados con relieve sutil que aportan textura sin dificultar la limpieza.</div></div>
+    </div>
+    <div class="spec rv d2">
+      <div class="spec-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg></div>
+      <div><div class="spec-t">Fácil mantenimiento</div><div class="spec-d">Se limpian con un paño húmedo, ideal para espacios de alto tránsito.</div></div>
+    </div>
+    <div class="spec rv d3">
+      <div class="spec-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+      <div><div class="spec-t">Rollos de 0.53 × 10m</div><div class="spec-d">Formato estándar (y 1.06 × 15.6m en la línea Aurora) para instalación sin desperdicios.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA DE INSTALACIONES REALES -->
+<section class="sec sec-alt" id="galeria">
+  <div class="ew rv"><span class="ewl"></span><span class="ewt">Proyectos reales</span></div>
+  <h2 class="h2 rv d1">Instalaciones en <span>hogares de Bogotá</span></h2>
+  <p class="lead rv d2">Algunos de nuestros proyectos recientes de papel tapiz instalado en salas, dormitorios y pasillos.</p>
+
+  <div class="gal-grid">
+    <div class="gal-item rv" onclick="openImg('assets/papel-tapiz-instalado-sala-textura-marmoleada-1.jpg','Sala con textura marmoleada')"><img src="assets/papel-tapiz-instalado-sala-textura-marmoleada-1.jpg" alt="Papel tapiz instalado en sala con textura marmoleada" loading="lazy"/></div>
+    <div class="gal-item rv d1" onclick="openImg('assets/papel-tapiz-instalado-sala-gris-textil-1.jpg','Sala con textura textil gris')"><img src="assets/papel-tapiz-instalado-sala-gris-textil-1.jpg" alt="Papel tapiz instalado en sala con textura textil gris" loading="lazy"/></div>
+    <div class="gal-item rv d2" onclick="openImg('assets/papel-tapiz-instalado-dormitorio-hojas-1.jpg','Dormitorio con estampado de hojas')"><img src="assets/papel-tapiz-instalado-dormitorio-hojas-1.jpg" alt="Papel tapiz instalado en dormitorio con estampado de hojas" loading="lazy"/></div>
+    <div class="gal-item rv" onclick="openImg('assets/papel-tapiz-instalado-dormitorio-geometrico-1.jpg','Dormitorio con diseño geométrico')"><img src="assets/papel-tapiz-instalado-dormitorio-geometrico-1.jpg" alt="Papel tapiz instalado en dormitorio con diseño geométrico" loading="lazy"/></div>
+    <div class="gal-item rv d1" onclick="openImg('assets/papel-tapiz-instalado-sala-marmoleada-lujo-1.jpg','Sala de lujo con textura marmoleada')"><img src="assets/papel-tapiz-instalado-sala-marmoleada-lujo-1.jpg" alt="Papel tapiz instalado en sala de lujo con textura marmoleada" loading="lazy"/></div>
+    <div class="gal-item rv d2" onclick="openImg('assets/papel-tapiz-instalado-pasillo-textura-1.jpg','Pasillo con textura decorativa')"><img src="assets/papel-tapiz-instalado-pasillo-textura-1.jpg" alt="Papel tapiz instalado en pasillo con textura decorativa" loading="lazy"/></div>
+  </div>
+
+  <div class="video-section rv d3">
+    <div class="ew" style="margin-top:3rem"><span class="ewl"></span><span class="ewt">Video de instalación</span></div>
+    <div class="vid-wrap">
+      <div class="vid-card" onclick="openVideo('assets/papel-tapiz-video-instalacion-1.mp4')">
+        <div class="vid-thumb">
+          <img src="assets/papel-tapiz-video-instalacion-1-thumb.jpg" alt="Video instalación papel tapiz 1"/>
+          <div class="vid-play">
+            <div class="vid-play-btn"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+            <span class="vid-play-lbl">Ver instalación</span>
+          </div>
+        </div>
+      </div>
+      <div class="vid-card" onclick="openVideo('assets/papel-tapiz-video-instalacion-2.mp4')">
+        <div class="vid-thumb">
+          <img src="assets/papel-tapiz-video-instalacion-2-thumb.jpg" alt="Video instalación papel tapiz 2"/>
+          <div class="vid-play">
+            <div class="vid-play-btn"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+            <span class="vid-play-lbl">Ver instalación</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATÁLOGO -->
+<section class="sec" id="catalogo">
+  <div class="ew rv"><span class="ewl"></span><span class="ewt">Catálogo de referencias</span></div>
+  <h2 class="h2 rv d1">Explora nuestras <span>colecciones</span></h2>
+  <p class="lead rv d2">Dos colecciones completas con distintas texturas, tonos y acabados. Descarga el catálogo completo en PDF o explora las referencias directamente aquí.</p>
+
+  <div class="cat-tabs rv d3">
+    <button class="cat-tab active" onclick="showCat('botanica', this)">Colección Botánica</button>
+    <button class="cat-tab" onclick="showCat('aurora', this)">Aurora Luxury Collection</button>
+  </div>
+
+  <div class="cat-panel active" id="panel-botanica">
+    <div class="cat-intro">
+      <img src="assets/papel-tapiz-catalogo-botanica-portada.jpg" alt="Portada Colección Botánica"/>
+      <div class="cat-intro-txt">
+        <h3>Colección Botánica</h3>
+        <p>Inspirada en la armonía de la naturaleza, reinterpreta lo orgánico desde una mirada fresca y contemporánea: líneas, tonos serenos y relieves sutiles que evocan la quietud de los entornos naturales. Formato 0.53 × 10m.</p>
+        <a class="btn-dl" href="assets/catalogo-coleccion-botanica.pdf" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Descargar catálogo completo (PDF)
+        </a>
+      </div>
+    </div>
+    <div class="ref-grid">
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1019.jpg','HOB-1019')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1019.jpg" alt="Referencia HOB-1019" loading="lazy"/></div>
+        <div class="ref-code">HOB-1019</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-301.jpg','SPO-301')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-301.jpg" alt="Referencia SPO-301" loading="lazy"/></div>
+        <div class="ref-code">SPO-301</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1033.jpg','HOB-1033')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1033.jpg" alt="Referencia HOB-1033" loading="lazy"/></div>
+        <div class="ref-code">HOB-1033</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1015.jpg','HOB-1015')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1015.jpg" alt="Referencia HOB-1015" loading="lazy"/></div>
+        <div class="ref-code">HOB-1015</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-508.jpg','SPO-508')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-508.jpg" alt="Referencia SPO-508" loading="lazy"/></div>
+        <div class="ref-code">SPO-508</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-sp1-203.jpg','SP1-203')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-sp1-203.jpg" alt="Referencia SP1-203" loading="lazy"/></div>
+        <div class="ref-code">SP1-203</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-209.jpg','SPO-209')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-209.jpg" alt="Referencia SPO-209" loading="lazy"/></div>
+        <div class="ref-code">SPO-209</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-804.jpg','SPO-804')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-804.jpg" alt="Referencia SPO-804" loading="lazy"/></div>
+        <div class="ref-code">SPO-804</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-702.jpg','SPO-702')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-702.jpg" alt="Referencia SPO-702" loading="lazy"/></div>
+        <div class="ref-code">SPO-702</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1006.jpg','HOB-1006')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1006.jpg" alt="Referencia HOB-1006" loading="lazy"/></div>
+        <div class="ref-code">HOB-1006</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1024.jpg','HOB-1024')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1024.jpg" alt="Referencia HOB-1024" loading="lazy"/></div>
+        <div class="ref-code">HOB-1024</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1046.jpg','HOB-1046')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1046.jpg" alt="Referencia HOB-1046" loading="lazy"/></div>
+        <div class="ref-code">HOB-1046</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1053.jpg','HOB-1053')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1053.jpg" alt="Referencia HOB-1053" loading="lazy"/></div>
+        <div class="ref-code">HOB-1053</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-705.jpg','SPO-705')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-705.jpg" alt="Referencia SPO-705" loading="lazy"/></div>
+        <div class="ref-code">SPO-705</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-704.jpg','SPO-704')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-704.jpg" alt="Referencia SPO-704" loading="lazy"/></div>
+        <div class="ref-code">SPO-704</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-hob-1038.jpg','HOB-1038')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-hob-1038.jpg" alt="Referencia HOB-1038" loading="lazy"/></div>
+        <div class="ref-code">HOB-1038</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-sp1-304.jpg','SP1-304')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-sp1-304.jpg" alt="Referencia SP1-304" loading="lazy"/></div>
+        <div class="ref-code">SP1-304</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-sp1-113.jpg','SP1-113')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-sp1-113.jpg" alt="Referencia SP1-113" loading="lazy"/></div>
+        <div class="ref-code">SP1-113</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-602.jpg','SPO-602')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-602.jpg" alt="Referencia SPO-602" loading="lazy"/></div>
+        <div class="ref-code">SPO-602</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-botanica-spo-604.jpg','SPO-604')">
+        <div class="ref-img"><img src="assets/papel-tapiz-botanica-spo-604.jpg" alt="Referencia SPO-604" loading="lazy"/></div>
+        <div class="ref-code">SPO-604</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cat-panel" id="panel-aurora">
+    <div class="cat-intro">
+      <img src="assets/papel-tapiz-catalogo-aurora-portada.jpg" alt="Portada Aurora Luxury Collection"/>
+      <div class="cat-intro-txt">
+        <h3>Aurora Luxury Collection</h3>
+        <p>Inspirada en los nuevos comienzos, combina texturas sutiles y colores neutros para crear espacios elegantes, sobrios y llenos de intención. Formato 1.06 × 15.6m — mayor cobertura por rollo.</p>
+        <a class="btn-dl" href="assets/catalogo-coleccion-aurora.pdf" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Descargar catálogo completo (PDF)
+        </a>
+      </div>
+    </div>
+    <div class="ref-grid">
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-aw650204.jpg','AW650204')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-aw650204.jpg" alt="Referencia AW650204" loading="lazy"/></div>
+        <div class="ref-code">AW650204</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk510402.jpg','HK510402')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk510402.jpg" alt="Referencia HK510402" loading="lazy"/></div>
+        <div class="ref-code">HK510402</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk510903.jpg','HK510903')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk510903.jpg" alt="Referencia HK510903" loading="lazy"/></div>
+        <div class="ref-code">HK510903</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk510907.jpg','HK510907')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk510907.jpg" alt="Referencia HK510907" loading="lazy"/></div>
+        <div class="ref-code">HK510907</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk520704.jpg','HK520704')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk520704.jpg" alt="Referencia HK520704" loading="lazy"/></div>
+        <div class="ref-code">HK520704</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk520705.jpg','HK520705')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk520705.jpg" alt="Referencia HK520705" loading="lazy"/></div>
+        <div class="ref-code">HK520705</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk521002.jpg','HK521002')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk521002.jpg" alt="Referencia HK521002" loading="lazy"/></div>
+        <div class="ref-code">HK521002</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk521911.jpg','HK521911')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk521911.jpg" alt="Referencia HK521911" loading="lazy"/></div>
+        <div class="ref-code">HK521911</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-dj22403.jpg','DJ22403')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-dj22403.jpg" alt="Referencia DJ22403" loading="lazy"/></div>
+        <div class="ref-code">DJ22403</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-w850701.jpg','W850701')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-w850701.jpg" alt="Referencia W850701" loading="lazy"/></div>
+        <div class="ref-code">W850701</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-we250206.jpg','WE250206')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-we250206.jpg" alt="Referencia WE250206" loading="lazy"/></div>
+        <div class="ref-code">WE250206</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-we250301.jpg','WE250301')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-we250301.jpg" alt="Referencia WE250301" loading="lazy"/></div>
+        <div class="ref-code">WE250301</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk521404.jpg','HK521404')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk521404.jpg" alt="Referencia HK521404" loading="lazy"/></div>
+        <div class="ref-code">HK521404</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk803803.jpg','HK803803')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk803803.jpg" alt="Referencia HK803803" loading="lazy"/></div>
+        <div class="ref-code">HK803803</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hk501701.jpg','HK501701')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hk501701.jpg" alt="Referencia HK501701" loading="lazy"/></div>
+        <div class="ref-code">HK501701</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hg950207.jpg','HG950207')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hg950207.jpg" alt="Referencia HG950207" loading="lazy"/></div>
+        <div class="ref-code">HG950207</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-hg950212.jpg','HG950212')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-hg950212.jpg" alt="Referencia HG950212" loading="lazy"/></div>
+        <div class="ref-code">HG950212</div>
+      </div>
+      <div class="ref-card" onclick="openImg('assets/papel-tapiz-aurora-dj600903.jpg','DJ600903')">
+        <div class="ref-img"><img src="assets/papel-tapiz-aurora-dj600903.jpg" alt="Referencia DJ600903" loading="lazy"/></div>
+        <div class="ref-code">DJ600903</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <h3>¿Ya elegiste tu referencia favorita?</h3>
+  <p>Agenda tu visita de medición gratis y te ayudamos a elegir el acabado ideal para tu espacio.</p>
+  <a href="https://wa.me/573107790189?text=Quiero%20agendar%20visita%20para%20papel%20tapiz" target="_blank" class="btn-w">
+    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Agendar visita gratis
+  </a>
+</div>
+
+<script>
+// Video modal
+const overlay = document.getElementById('vmodal');
+const vid = document.getElementById('vmodalVideo');
+document.getElementById('vmodalClose').addEventListener('click', () => { overlay.classList.remove('open'); vid.pause(); vid.src=''; });
+overlay.addEventListener('click', e => { if(e.target===overlay){ overlay.classList.remove('open'); vid.pause(); vid.src=''; } });
+document.addEventListener('keydown', e => { if(e.key==='Escape'){ overlay.classList.remove('open'); vid.pause(); vid.src=''; closeImg(); } });
+
+function openVideo(src){
+  vid.src = src;
+  overlay.classList.add('open');
+  vid.play().catch(()=>{});
+}
+
+// Image modal
+const ioverlay = document.getElementById('imodal');
+const iimg = document.getElementById('imodalImg');
+const ilabel = document.getElementById('imodalLabel');
+document.getElementById('imodalClose').addEventListener('click', closeImg);
+ioverlay.addEventListener('click', e => { if(e.target===ioverlay) closeImg(); });
+function openImg(src, label){
+  iimg.src = src;
+  ilabel.textContent = label || '';
+  ioverlay.classList.add('open');
+}
+function closeImg(){
+  ioverlay.classList.remove('open');
+}
+
+// Catalog tabs
+function showCat(name, btn){
+  document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.cat-panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('panel-' + name).classList.add('active');
+}
+
+// Reveal
+const ro = new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>ro.observe(el));
+</script>
+</body>
+</html>
